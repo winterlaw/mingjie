@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTMLBONES-首页</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+    <body>
+    	<header>
+        <h1>这是一个logo</h1>
+        {% if not session.logged_in %}
+          <a href="{{ url_for('login') }}" class="btn btn-primary">注册</a>
+          <a href="{{ url_for('register') }}" class="btn btn-primary">登录</a>
+        {% else %}
+		  <a href="{{ url_for('logout') }}">log out</a>
+		 {% endif %}
+      </header>
+
+	<div id="content">
+		<h2 style="margin-left: 20px">这是一个主页</h2>
+	</div>
+
+	{% for message in get_flashed_messages() %}
+	  <div class= flash>{{ message }}</div>
+	{% endfor %}
+	{% block body %}{% endblock %}
+</div>
+  </body>
+</html>
