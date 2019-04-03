@@ -1,0 +1,360 @@
+#page1{
+    width: 80%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 2px 0px 2px 0px ;
+}
+header{
+    margin: 0;
+    top:-3px;
+    left:0;
+    position:fixed;
+    width:100%;
+    background-color:#eeeeee;
+    padding:10px 30px 10px 30px;
+    display: block;
+    margin: 0 auto;
+    z-index: 5;
+}
+header h1{
+    display: inline;
+}
+header a{
+    float: right;
+    margin: 3px 5px 0px 5px;
+}
+
+#content{
+    margin-top:90px;
+}
+.border{
+    width: 80%;
+    padding: 8px;
+    margin: auto;
+    border: 2px solid #b0c3d7;
+}
+#indexTitle{
+    padding-top: 90px;
+    padding-bottom: 50px;
+
+    margin: auto;
+    background-image: url('huawen.jpg');
+}
+
+.page_text_title{
+    width:410px;
+    margin:0px auto 0px;
+    padding:8px;
+    border-top:3px solid #ffffff;
+    border-bottom:3px solid #ffffff;
+    text-align:center;
+    font-size: 54px;
+    background-color: rgba(125, 152, 176, 0.91);
+    color: #ffffff;
+}
+.page_text_title_small{
+    width:230px;
+    margin:2px auto;
+    font-size: 20px;
+    color: rgba(125, 152, 176, 0.91);
+    background-color:#ffffff;
+    padding: 2px 20px 2px 35px;
+
+}
+.page_btn1{
+    margin: 85px 140px 10px;
+    padding: 10px;
+    width:180px;
+    height: 50px;
+    background: #ffffff;
+    color: #87a0b7;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    border-radius: 25px;
+    border:1px solid #87a0b7;
+}
+.page_btn1:hover{
+    background: #86a3bd;
+    border:1px solid #87a0b7;
+}
+
+.introduction_title{
+    width:390px;
+    font-family: 微软雅黑;
+    font-size: 40px;
+    float: left;
+    margin-left: 110px;
+
+}
+.introduction_p{
+    font-size: 22px;
+    margin: 50px 60px 30px 50%;
+    padding-top: 20px;
+
+}
+.intro{
+    margin:90px 10px 10px;
+    border-top:2px solid #7D98B0;
+    padding: 40px 0 0px 10px;
+}
+.intro2{
+    padding: 0px 20px 20px 53%;
+
+}
+.intro_title{
+    padding-top: 15px ;
+    font-family: 微软雅黑;
+    font-size: 34px;
+    margin: 0;
+    padding-bottom:10px ;
+}
+.intro_stiltle{
+    font-size: 22px;
+    font-family: 微软雅黑;
+    color: #86a3bd;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.intro_p1{
+    font-size: 22px;
+    padding-bottom:20px ;
+    padding-right: 57%;
+}
+.intro_p2{
+    font-size: 22px;
+    padding-bottom:20px ;
+}
+.page_btn2{
+    padding: 10px;
+    width:180px;
+    height: 50px;
+    background: #ffffff;
+    color: #87a0b7;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    border-radius: 25px;
+    border:1px solid #87a0b7;
+}
+.page_btn2:hover{
+    background: #86a3bd;
+    border:1px solid #87a0b7;
+}
+.page_btn3{
+    padding: 10px;
+    width:180px;
+    height: 50px;
+    background: #ffffff;
+    color: #87a0b7;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    border-radius: 25px;
+    border:1px solid #87a0b7;
+    margin-bottom: 80px;
+}
+.page_btn3:hover{
+    background: #86a3bd;
+    border:1px solid #87a0b7;
+}
+.draft{
+    float: right;
+    margin-right:40px;
+}
+.design{
+    float:left;
+    margin: 0px 0px 30px 10px;
+    width: 500px;
+}
+
+
+#page2{
+    margin: 90px auto;
+    width: 1100px;
+    height: 400px;
+}
+#imgContent{
+    width:400px;
+    height: 400px;
+    margin: 10px 0px 10px 280px;
+}
+.page_title{
+    width: 300px;
+    margin: 20px auto 30px;
+}
+#picture_in{
+    margin: 15px 280px;
+}
+#btn_submit{
+    width:250px;
+    margin: 5px 350px;
+}
+#code{
+    width: 300px;
+    height: 400px;
+    padding: 200px 200px;
+    display: inline;
+    border: 1px solid #C0C0C0;
+    margin: 100px 0px;
+    position: absolute;
+    left: 900px;
+    top: 200px;
+    opacity: 0;
+}
+.bar{
+    opacity: 0;
+    width: 1000px;
+    height: 20px;
+    position: absolute;
+    left: 200px;
+    top:650px;
+}
+.changeUpload{
+    width: 180px;
+    margin: 0 auto;
+}
+
+#commentBox{
+    position: absolute;
+    z-index: 15;
+    background: white;
+    width:300px;
+    height:250px;
+    margin: auto;
+}
+.row1{
+    background-color: #9ad0f5;
+    padding: 10px 0px 10px 10px;
+}
+.close_btn{
+    padding: 10px;
+    margin-left: 233px;
+    margin-right:0 ;
+    display: inline;
+}
+.close_btn:hover{
+    background-color: #dfdfdf ;
+    text-decoration:none;
+}
+.row2{
+    margin-top:10px ;
+    padding-left:5px ;
+    margin-bottom:10px ;
+}
+.commentText{
+    height: 80px;
+    width: 250px;
+    vert-align: top;
+    resize: none;
+    margin-left:5px ;
+}
+.row4{
+    padding-left:5px ;
+    margin-top: 5px;
+}
+
+#login_title{
+    width: 268px;
+    margin: 25px auto 25px;
+    color: #eeeeee;
+}
+#login_page{
+    width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 350px;
+    padding: 58px 35px;
+    border-radius: 12px
+}
+#login_page_title{
+    width: 40%;
+    margin: auto;
+    padding: 11% ;
+    border-right: 2px solid ;
+}
+.login_form{
+    width: 60%;
+    padding: 15px
+
+}
+.input_text{
+    width: 80%;
+    margin: 21px auto;
+}
+.btn_login{
+    width: 60%;
+    margin: 10px 20%;
+}
+span{
+    color: #E9E9E9;
+    width: 40px;
+    margin-left: 30px;
+    display: inline;
+}
+.href{
+    color: #FBA821;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.href:hover{
+    color: #fb7a30;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.index{
+    color: grey;
+    text-decoration: none;
+}
+.index:hover        {color: black; text-decoration: none;}
+#foot{
+    margin: 20px auto;
+    width: 250px;
+    font-size: 16px;
+}
+
+
+#register_title{
+    width: 268px;
+    margin: 25px auto 25px;
+    color: #eeeeee;
+}
+#register_page{
+    width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 400px;
+    padding: 58px 35px;
+    border-radius: 12px
+}
+#register_page_title{
+    width: 315px;
+    margin: auto;
+    padding: 105px 90px ;
+    border-right: 2px solid ;
+}
+.register_form{
+    width: 480px;
+    padding: 25px 15px;
+
+}
+.register_input_text{
+    width: 310px;
+    margin: 15px auto;
+}
+#usertype{
+    width: 310px;
+    margin: auto;
+}
+.btn_register{
+    width: 260px;
+    margin: 20px 95px;
+}
+
+.warning{
+    color: red;
+    font-size: 16px;
+    width:200px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top:10px;
+    left:170px;
+}
